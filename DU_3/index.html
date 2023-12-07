@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Domácí úkol 3</title>
+    <style>
+        h1,h2,h3,h4 {text-align: center;}
+        p {text-align: center;}
+        form {text-align: center;}
+        code {  display: block;
+                text-align: center;}
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">   
+</head>
+ 
+<body>
+    <h1>Domácí úkol 3</h1>
+    <h3>Richard Pokorný</h3>
+    <h2>Generování seznamu zaměstnanců</h2>
+    <hr>
+    <form name="formEmployees" method="POST">
+        <label>Vložte počet zaměstnanců:</label>
+        <input type="text" name="count">
+        <br>
+        <label>Vložte počet věkový rozptyl</label>
+        <input type="text" name="min" value="Minimálně">
+        <input type="text" name="max" value="Maximálně">
+        <button type="button" name="button" onClick="formHandler(this.form)">Odeslat</button>
+    </form>
+    <h4>Zaměstnanci:</h4>
+    <h3 id="result"></h3>
+
+    <script src="script.js"></script>
+</body>
+ 
+</html>
