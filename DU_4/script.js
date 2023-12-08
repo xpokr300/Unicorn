@@ -109,6 +109,7 @@ function generateEmployeeData(dtoIn) {
 
 function getEmployeeStatistics(dtoListOfEmployees) {
   //inicialization of variables
+  let total = dtoListOfEmployees.length;
   let workload10 = 0;
   let workload20 = 0;
   let workload30 = 0;
@@ -149,7 +150,7 @@ function getEmployeeStatistics(dtoListOfEmployees) {
     }
   }
   //set the total of employees
-  statistics.total = dtoListOfEmployees.length;
+  statistics.total = total;
   //get the average age
   statistics.averageAge = average(listOfAges);
   //get the average workload
