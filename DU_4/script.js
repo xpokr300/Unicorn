@@ -50,8 +50,8 @@ function main(dtoIn) {
 
 function generateEmployeeData(dtoIn) {
   let dtoOut = [];
-  let menNames = ["Petr", "Pavel", "Richard", "Jan", "Martin"];
-  let womenNames = ["Anna", "Marie", "Jana", "Petra", "Pavla"];
+  let menNames = ["Petr", "Antonín", "Richard", "Jiří", "Matyáš"];
+  let womenNames = ["Anna", "Šárka", "Kristýna", "Anna-Marie", "Pavla"];
   let menSurnames = ["Pokorný", "Malý", "Novák", "Záludný", "Sličný"];
   let womenSurnames = ["Pokorná", "Malá", "Nováková", "Záludná", "Sličná"];
   let gender = ["male", "female"];
