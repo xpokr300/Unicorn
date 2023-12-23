@@ -29,7 +29,7 @@ function returnBinary (form) {
             return false;
         }
     }catch(error){
-        alert('Šéfe, mně se asi něco nepovedlo')
+        alert('Šéfe, mně se asi něco nepovedlo');
         console.log("Proběhlo prověření čísla "+inputValue + ". Výsledkem je chyba.");
     }
 
