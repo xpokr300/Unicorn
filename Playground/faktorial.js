@@ -4,10 +4,8 @@ let num = prompt("Zadejte cislo ");
 console.log(num);
 function fakt(number) {
   if (number === 0) {
-    console.log("naposledy")
     return 1;
   } else {
-    console.log("jedu");
     return number * fakt(number - 1);
   }
 }
