@@ -47,7 +47,7 @@ function getEmployeeChartContent(dtoIn){
     "maleFullTime":{}
   };
 
-  //main loop object names{}
+  // object names{}
   for(let i=0;i<dtoIn.length;i++){
     //object all
     let name = dtoIn[i].name
